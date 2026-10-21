@@ -1,0 +1,6 @@
+{
+  "name": "The Happiness Machine",
+  "description": "You Didn't Find This Website. This Website Found You. A magical interactive happiness generator, surprise box, and vibe explorer created by @hack.n.code.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

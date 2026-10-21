@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-display {
+  font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Custom glow and backdrop effects */
+.glow-pink {
+  box-shadow: 0 0 45px -8px rgba(244, 114, 182, 0.38);
+}
+
+.glow-purple {
+  box-shadow: 0 0 55px -10px rgba(168, 85, 247, 0.38);
+}
+
+.glow-gold {
+  box-shadow: 0 0 45px -8px rgba(251, 191, 36, 0.38);
+}
+
+.glass-panel {
+  background: rgba(24, 14, 46, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #090514;
+}
+::-webkit-scrollbar-thumb {
+  background: #28174a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3e2473;
+}
